@@ -1,0 +1,27 @@
+# Core FastAPI dependencies
+fastapi>=0.104.1
+uvicorn[standard]>=0.24.0
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+python-multipart>=0.0.6
+pydantic>=2.11.7
+pydantic-settings>=2.0.3
+python-dotenv>=1.0.0
+
+# Supabase and HTTP
+supabase>=2.0.2
+httpx>=0.24.1
+PyJWT>=2.8.0
+requests>=2.31.0
+
+# Redis and Celery for background tasks
+redis>=5.0.1
+celery>=5.3.4
+
+# Claude AI Integration for student assistance
+anthropic>=0.7.8
+aiohttp>=3.9.1
+
+# Advanced AI features for task management
+langchain>=0.1.0
+langchain-anthropic>=0.0.1
